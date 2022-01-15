@@ -1,5 +1,5 @@
 #
-![CNA_Header_Image](images/CNA_header_image.png "Cloud Native Adventure")
+![CNA_Header_Image](images/CNA_Header_Image.png "Cloud Native Adventure")
 #
 # My Cloud Native Adventure
 
