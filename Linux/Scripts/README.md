@@ -21,8 +21,6 @@ Once the VM is created, the returned JSON object will contain the public IP addr
 
 I know that this is only a temporary VM for learning purposes but it's worth getting into the practice of making sure that your cloud resources are as secure as possible. With that in mind, I create a Network Security Group to protect our VM and lock SSH access down to my Public IP address only.
 
-It is also best practice to configure SSH access using an SSH Key Pair. For this temporary use case, I am using a username and password instead.
-
 **Filename:** deploylinuxazvm.sh
 
 **JSON Object returned when VM deployed (example):**
