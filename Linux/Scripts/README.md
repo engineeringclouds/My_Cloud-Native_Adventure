@@ -11,7 +11,7 @@ This script file contains all the commands required to complete the following:
 * Login to Azure and Select correct subscription
 * Create Resource Group
 * Create Virtual Network
-* Create a Network Security Greo
+* Create a Network Security Group
 * Create Ubuntu VM with previously created SSH Key Pair
 * Delete resources to save money.
 
@@ -19,7 +19,7 @@ Once the VM is created, the returned JSON object will contain the public IP addr
 
 **DISCLAIMER:** 
 
-I know that this is only a temporary VM for learning purposes but it's worth getting into the practice of making sure that your cloud resources are as secure as possible. With that in mind, I create a Network Security Group to protect our VM and lock SSH access down to my Public IP address only.
+I know that this is only a temporary VM for learning purposes but it's worth getting into the practice of making sure that your cloud resources are as secure as possible. With that in mind, I create a Network Security Group and lock SSH access down to my Public IP address only to protect our VM.
 
 **Filename:** deploylinuxazvm.sh
 
