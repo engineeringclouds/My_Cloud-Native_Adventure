@@ -1,4 +1,7 @@
-# My_Cloud-Native_Adventure
+#
+![CNA_Header_Image](images/CNA_header_image.png "Cloud Native Adventure")
+#
+# My Cloud Native Adventure
 
 This repo will contain resources related to my Cloud Native learning journey
 
