@@ -5,6 +5,13 @@
 
 This repo will contain resources related to my Cloud Native learning journey
 
+## Repo Structure
+
+This repository will evolve as the learning journey moves forward. Each subject area will be separated into its own directory and subdirectories. Where appropriate, each directory will have a README file.
+
+* Linux/
+  * Scripts/
+
 ## Links
 
 Below you will find links to the learning resources that I am using.
