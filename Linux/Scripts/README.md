@@ -13,6 +13,7 @@ This script file contains all the commands required to complete the following:
 * Create Virtual Network
 * Create a Network Security Group
 * Create Ubuntu VM with previously created SSH Key Pair
+* Stop/Start VM so that you aren't paying for it between study sessions
 * Delete resources to save money.
 
 Once the VM is created, the returned JSON object will contain the public IP address that you can use to gain SSH access.

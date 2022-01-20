@@ -91,7 +91,20 @@ az vm create /
 
 # You will get a JSON object back similar to the one detailed in the README.
 
-# Save money by deleting your resources when you're done. 
+# Save money by deallocating the VM between study sessions or deleting your resources when you're done. 
+
+# Deallocate your VM. The only thing you'll get charged for is storage.
+
+az vm deallocate /
+  --resource-group $resourceGroupName /
+  --name $vmName
+
+# Start VM when you're ready to study.
+
+az vm start /
+  --resource-group $resourceGroupName /
+  --name $vmName
+
 # If you delete the resource group you will delete all resources contained within it.
 
 az group delete --name $resourceGroupName
