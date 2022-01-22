@@ -78,16 +78,16 @@ az network vnet subnet update \
 
 # Create your test VM and generate SSH Key Pair for access
 
-az vm create /
-  --resource-group $resourceGroupName /
-  --name $vmName /
-  --image $vmImage /
-  --vnet-name $vnetName /
-  --subnet $snetName /
-  --nsg "" /
-  --admin-username $adminUsername /
-  --ssh-key-values $sshPublicKeyPath /
-  --output json
+az vm create \
+  --resource-group $resourceGroupName \
+  --name $vmName \
+  --image $vmImage \
+  --vnet-name $vnetName \
+  --subnet $snetName \
+  --nsg "" \
+  --admin-username $adminUsername \
+  --ssh-key-values $sshPublicKeyPath \
+  --output json 
 
 # You will get a JSON object back similar to the one detailed in the README.
 
@@ -95,14 +95,14 @@ az vm create /
 
 # Deallocate your VM. The only thing you'll get charged for is storage.
 
-az vm deallocate /
-  --resource-group $resourceGroupName /
+az vm deallocate \
+  --resource-group $resourceGroupName \
   --name $vmName
 
 # Start VM when you're ready to study.
 
-az vm start /
-  --resource-group $resourceGroupName /
+az vm start \
+  --resource-group $resourceGroupName \
   --name $vmName
 
 # If you delete the resource group you will delete all resources contained within it.
