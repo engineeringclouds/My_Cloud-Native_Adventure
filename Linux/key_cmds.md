@@ -1,6 +1,6 @@
 ### Key Commands
 
-You know the drill by now! :) See below for key commands to be familar with as you get to grips with Linux.
+See below for key commands to be familar with as you get to grips with Linux.
 
 * **man:** One of the most important things to know when learning a new operating system is how to access information on the various commands. The 'man' command shows the reference manual for specific commands. It usually contains a description, syntax, and examples. It's a great place to start when using a command for the first time.
 * **ls:** Use 'ls' to list directory contents. Use 'man ls' to get more information.
