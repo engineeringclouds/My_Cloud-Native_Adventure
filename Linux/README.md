@@ -1,9 +1,16 @@
-# Linux Scripts
+# Linux
 
-This directory will contain scripts that support the Linux portion of the Cloud Native Adventure.
+In this directory you will find learning resources related to my Linux learning journey. I hope you find it useful. See below for details on subdirectories.
+
+* **'key_cmds.md':** This file contains information on useful commands I've found when learning Linux.
+* **'key_terms.md':** This file contains information on key terms and phrases I've found when learning Linux.
+
+## Linux Scripts
+
+This subdirectory will contain scripts that support the Linux portion of the Cloud Native Adventure.
 
 ---
-## Deploy Linux VM in Azure
+### Deploy Linux VM in Azure
 
 This script file contains all the commands required to complete the following:
 
