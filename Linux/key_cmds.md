@@ -23,7 +23,7 @@ See below for key commands to be familar with as you get to grips with Linux.
 * **tail:** Use the 'tail' command to print the last 10 lines of a file to the screen. You can use the '-n' switch to change the number of lines printed. Use 'man tail' for more information.
 * **head:** Pretty much the exact opposite of the 'tail' command. As above, use '-n' to change the number of lines printed. Use 'man head' for more information.
 * **diff:** The 'diff' command can be used to compare two files. Use 'man diff' for details.
-* **locate:** The 'locate' command helps find files by consulting system databases. Note: these databases aren't updated real time, so any recent file additions or removals won't show in the results. Use 'man locate' to get more information.
+* **locate:** The 'locate' command helps find files by consulting system databases. Note: these databases aren't updated in real time, so any recent file additions or removals won't show in the results. Use 'man locate' to get more information.
 * **find:** The 'find' command is another search utility. Unlike the 'locate' command, 'find' searches in the directory hierarchy for your search terms. Use 'man find' for details. 
 * **rsync:** Use the 'rsync' command for fast file copying from one location to another. It can even handle remote locations. Use 'man rsync' for more details.
 * **File compression utilities:** As in Windows, there are many file compression utilities to choose from on Linux. There are pros and cons of each which I won't explore here. Check out the man pages for details.
