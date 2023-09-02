@@ -11,6 +11,8 @@ This repository will evolve as the learning journey moves forward. Each subject 
 
 * Linux/
   * Scripts/
+* kubernetes/
+  * YAML/
 
 ## Links
 
@@ -21,3 +23,6 @@ Below you will find links to the learning resources that I am using.
 * **[Linux Foundation: Introduction to Linux](https://training.linuxfoundation.org/training/introduction-to-linux/)**.
 * **[Linux Basics for Hackers](https://www.amazon.co.uk/Hackers-Getting-Networking-Scripting-Security/dp/1593278551)**.
 
+## Certified Kubernetes Administrator (CKA)
+
+* **[CKA Certification Course](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/)**
